@@ -1,0 +1,98 @@
+html, body {
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  background-color: #eee; }
+
+/* Global Helper Classes */
+.center { text-align: center; }
+.bold { font-weight: bold; }
+
+/* Header */
+.navbar-default {
+  background-color: #991000;
+  font-size: 1.125rem;
+  border-radius: 0px;
+  border: 0px; }
+.navbar-default .navbar-brand { color: white; }
+.navbar-default .navbar-nav>li>a { color: white; }
+.navbar-default .navbar-toggle .icon-bar { background-color: white; }
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: #790000;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form { border-color: transparent;}
+.nav > li > a:hover { background-color: #991010; }
+.nav > li > a:focus { background-color: #991010; }
+
+/* Hero */
+.hero { height: 450px; }
+.hero img { width: 100%; max-height: 450px; }
+
+/* Content */
+.content {
+  margin-top: 2rem;
+  background-color: #eee;
+  padding-left: 1rem;
+  padding-right: 1rem; }
+.content img { min-width: 100%; height: auto; }
+.header {
+  margin: 0;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.25rem;
+  border-bottom: 2px solid #750B00;
+}
+.sub-header {
+  font-style: italic;
+  padding-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  color: #eee;
+  background-color: #02505E;
+  min-height: 16  0px;
+  width: 100%;
+}
+.footer-header {
+  border-bottom: 1px solid white;
+  margin-bottom: 0.5rem;
+}
+.footer ul {
+  font-size: 0.85rem;
+  list-style: none;
+  padding-left: 0;
+}
+.footer-copyright {
+  text-align: center;
+  font-size: 0.8rem;
+  padding-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.img-spacer {
+  height: 1.5rem;
+  clear: both;
+}
+
+@media (max-width: 450px) {
+  .hero { height: 175px; }
+}
+
+@media (max-width: 768px) {
+  .hide-mobile { display: none; }
+  .show-mobile { display: block; }
+  .content > div { margin-top: 1.5rem; }
+  .three-four-split { margin-top: 1.5rem; }
+}
+
+@media (min-width: 768px) {
+  .show-mobile { display: none; }
+}
