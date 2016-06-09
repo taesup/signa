@@ -12,8 +12,8 @@ html, body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: #eee;
-  background-color: #02505E; }
+  color: black;
+  background-color: white; }
 .card {
   padding: 30px;
   background-color: white;
